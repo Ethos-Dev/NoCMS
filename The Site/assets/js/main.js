@@ -1,8 +1,8 @@
 // JavaScript Document
 
 $(function() {
-	var thebody=$("body");
+	var thebody=$("#automated");
 	for(var i=1; i<5; i++){
-		thebody.append("<h"+i+">Welcome again</h"+i+">");
+		thebody.append("<h"+i+">Welcome again ("+i+")</h"+i+">");
 	}
 });
